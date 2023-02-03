@@ -3,6 +3,7 @@ package primeiro_programa_java;
 public class Pessoa {
 
 	private String nome;
+	private String sobrenome;
 	private Integer idade;
 	private String dataNascimento;
 	
@@ -24,6 +25,12 @@ public class Pessoa {
 	}
 	public void setDataNascimento(String dataNascimento) {
 		this.dataNascimento = dataNascimento;
+	}
+	public String getSobrenome() {
+		return sobrenome;
+	}
+	public void setSobrenome(String sobrenome) {
+		this.sobrenome = sobrenome;
 	}
 	
 }
